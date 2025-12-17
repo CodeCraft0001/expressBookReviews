@@ -108,4 +108,8 @@ public_users.get('/review/:isbn',function (req, res) {
 //   return res.status(300).json({message: "Yet to be implemented"});
 });
 
+public_users.post('review/:isbn', function (req, res) {
+    // const 
+})
+
 module.exports.general = public_users;
